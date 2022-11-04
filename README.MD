@@ -47,7 +47,8 @@ CHƯƠNG 2: GIỚI THIỆU HỆ THỐNG
  
 CHƯƠNG 3: THIẾT KẾ HỆ THỐNG
 3.1.	Sơ đồ chức năng
- 
+![image](https://user-images.githubusercontent.com/93209137/200001234-f65b0dc6-2a92-41fd-94b4-5f2bdbca78c8.png)
+
 Các chức năng chính của chương trình:
 	Quản lý nhân viên: dùng để admin quản lý danh sách và thông tin nhân viên.
 	Quản lý đơn hàng: dùng để nhân viên tạo đơn bán hàng và admin quản lý các đơn hàng, tình hình kinh doanh của cửa hàng.
@@ -56,7 +57,8 @@ Các chức năng chính của chương trình:
 	Thống kê thông tin: thống kê các số liệu trợ giúp cho việc quản lý của hàng và định hướng phát triển của cửa hàng.
  
 3.2.	Sơ đồ lớp
- 
+ ![image](https://user-images.githubusercontent.com/93209137/200001271-14060183-2fc7-4023-aaf6-ff93d7417909.png)
+
 Các thành phần chính:
  	Kết nối data:
 	ConnectDatabase: Thực hiện việc kết nối với database
@@ -76,7 +78,8 @@ Các thành phần chính:
 	NhanVienModel: tải dữ liệu về nhân viên từ database
 	KhachHangModel: tải dữ liệu về khách hàng từ database
 3.3.	Sơ đồ thiết kế dữ liệu
- 
+ ![image](https://user-images.githubusercontent.com/93209137/200001338-ab8237bb-16d1-4b2a-82d7-def440a1d8de.png)
+
 Mô tả sơ đồ thiết kế cơ sở dữ liệu:
 	Bảng login: lưu thông tin đăng nhập và được liên kết với bảng nhân viên thông qua bảng dangnhap_nhanvien
 	Bảng dangnhap_nhanvien: liên kết 2 bảng login và nhanvien
@@ -88,32 +91,45 @@ Mô tả sơ đồ thiết kế cơ sở dữ liệu:
  
 CHƯƠNG 4: GIAO DIỆN CỦA CHƯƠNG TRÌNH
 4.1.	Đăng nhập
- 
+ ![image](https://user-images.githubusercontent.com/93209137/200001411-8df7a6ce-1471-44bd-a1bb-229e368220a3.png)
+
 
 4.2.	Form làm việc của người quản lý cửa hàng (admin)
 Bảng chọn:
- 
+ ![image](https://user-images.githubusercontent.com/93209137/200001308-3f35b88e-7fda-4f90-aeb6-d8ae19767c85.png)
+
 Quản lý nhân viên:
- 
+ ![image](https://user-images.githubusercontent.com/93209137/200001357-36fb2065-3276-4a8e-abc9-0ea6cb918b14.png)
+
 Quản lý đơn hàng:
- 
+ ![image](https://user-images.githubusercontent.com/93209137/200001396-761f5314-8e6e-4489-ad66-0ef2fb5210a0.png)
+
 Quản lý khách hàng:
- 
+ ![image](https://user-images.githubusercontent.com/93209137/200001378-9bcaf257-416c-4c55-9add-45bfa06a9cd2.png)
+
 Thống kê:
-  
+![image](https://user-images.githubusercontent.com/93209137/200001438-a796c2e4-166c-467f-8ac9-adcde56f646b.png)
+![image](https://user-images.githubusercontent.com/93209137/200001449-6fae436c-a724-4eae-990f-0f51787132a2.png)
+![image](https://user-images.githubusercontent.com/93209137/200001458-a770385b-e839-4316-81aa-9206ead231ec.png)
+![image](https://user-images.githubusercontent.com/93209137/200001470-0ba0ef72-867e-4439-b7b2-b212296f97fd.png)
+
   
  
 Tạo tài khoản quản lý (admin) mới:
- 
+ ![image](https://user-images.githubusercontent.com/93209137/200001507-4ce7ad5e-5c84-4443-a2f0-ac21ad9fa8b1.png)
+
 4.3.	Form làm việc dành cho nhân viên
 Bảng chọn:
- 
+ ![image](https://user-images.githubusercontent.com/93209137/200001531-a8d3606a-786c-4e04-9ea2-a1f726578f94.png)
+
 Quản lý kho hàng: 
- 
+ ![image](https://user-images.githubusercontent.com/93209137/200001554-2a30c9d3-df0b-43d6-bd64-1bc1cc864e9b.png)
+
 Quản lý đơn hàng:
- 
+![image](https://user-images.githubusercontent.com/93209137/200001575-41c50206-39e8-4362-8ec0-d2b4f0125f73.png)
 Quản lý khách hàng:
- 
+ ![image](https://user-images.githubusercontent.com/93209137/200001613-30d85020-1509-445b-bc29-c24c4ab254ee.png)
+
  
 CHƯƠNG 5: KẾT QUẢ
 5.1.	Nội dung chính của chương trình:
